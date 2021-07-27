@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 @Service
-public class DiscussPostService {
+public class DiscussPostService { //分页查询功能
 
     @Autowired
     private DiscussPostMapper discussPostMapper;

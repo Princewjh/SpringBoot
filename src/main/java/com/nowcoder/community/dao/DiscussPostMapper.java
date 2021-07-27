@@ -11,7 +11,7 @@ import java.util.List;
  * @create 2021 - 07 - 24 8:53
  */
 @Mapper
-public interface DiscussPostMapper {
+public interface DiscussPostMapper { //分页查询，
 
     //分页查询 ，userId这个参数待定，在后面用
     //offset为页开始的行号

@@ -22,7 +22,7 @@ import java.util.Map;
  */
 
 @Controller
-public class HomeController {
+public class HomeController { //首页
 
     @Autowired
     private DiscussPostService discussPostService;
