@@ -60,4 +60,9 @@ public class HomeController { //首页
 
         return "/index";
     }
+
+    @RequestMapping(path = "/error", method = RequestMethod.GET)
+    public String getErrorPage() {
+        return "/error/500";
+    }
 }

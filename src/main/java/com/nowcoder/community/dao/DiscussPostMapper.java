@@ -22,4 +22,10 @@ public interface DiscussPostMapper { //分页查询，
     //userId这个参数待定，在后面用
     //如果需要动态的拼接一个条件(动态sql,在<if>里使用)，并且方法有且仅有这一个条件，必须取别名 使用@Param
     int selectDiscussPostRows(@Param("userId") int userId);
+
+    int insertDiscussPost(DiscussPost discussPost);
+
+    DiscussPost selectDiscussPostById(int id);
+
+    int updateCommentCount(int id, int commentCount);
 }

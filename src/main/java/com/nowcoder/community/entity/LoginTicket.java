@@ -6,6 +6,7 @@ import java.util.Date;
  * @author wjh
  * @create 2021 - 07 - 27 12:43
  */
+//登录凭证
 public class LoginTicket {
 
     private int id;
